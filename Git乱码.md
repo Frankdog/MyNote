@@ -7,5 +7,5 @@
 ##git add 显示乱码
   `git config --global core.quotepath false`
 ##git commit/log 
-  `i18n.commitencoding=utf-8`
-  `i18n.logoutputencoding=utf-8`
+  `git config --global i18n.commitencoding utf-8`
+  `git config --global i18n.logoutputencoding utf-8`
